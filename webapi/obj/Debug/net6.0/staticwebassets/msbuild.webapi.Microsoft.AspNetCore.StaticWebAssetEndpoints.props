@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/webapi/data/data.8xt4sy54sz.csv">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\data.csv'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8xt4sy54sz"},{"Name":"integrity","Value":"sha256-fCS3l8pInZMH/Srnr9abBVRTEobZ2wDbPaFld\u002B7Rxps="},{"Name":"label","Value":"_content/webapi/data/data.csv"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"187566"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022fCS3l8pInZMH/Srnr9abBVRTEobZ2wDbPaFld\u002B7Rxps=\u0022"},{"Name":"Last-Modified","Value":"Thu, 14 Aug 2025 14:13:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/webapi/data/data.csv">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\data.csv'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fCS3l8pInZMH/Srnr9abBVRTEobZ2wDbPaFld\u002B7Rxps="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"187566"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022fCS3l8pInZMH/Srnr9abBVRTEobZ2wDbPaFld\u002B7Rxps=\u0022"},{"Name":"Last-Modified","Value":"Thu, 14 Aug 2025 14:13:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
